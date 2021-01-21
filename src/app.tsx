@@ -1,12 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-import './app.css';
+function App(): JSX.Element {
+  return (
+    <React.Fragment>
+      <h1 data-testid="title">Starter - Typescript React</h1>
+    </React.Fragment>
+  )
+}
 
-const App = () => {
-  return <div>
-    <h1>Welcome to sotoer</h1>
-  </div>;
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+export default App;
